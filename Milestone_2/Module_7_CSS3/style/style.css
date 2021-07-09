@@ -1,0 +1,17 @@
+.box{
+    height: 100px;
+    width: 100px;
+    border: 1px solid indigo;
+}
+#box_1{
+    background-color: aqua;
+}
+#box_2{
+    background-color: blueviolet;
+}
+#box_3{
+    background-color: chartreuse;
+}
+#box_4{
+    background-color: darkgoldenrod;
+}

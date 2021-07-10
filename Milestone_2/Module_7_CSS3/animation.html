@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animation</title>
+    <style>
+        @keyframes bounce {
+            0%{
+                background-color: mediumblue;
+                /* transform: scale(1); */
+                left: 0;
+                top:0;
+
+            }
+            25%{
+                background-color: rgb(2, 212, 72);
+                /* transform: scale(1); */
+                top: 250px;
+                
+            }
+            50%{
+                background-color: rgb(240, 255, 34);
+                /* transform: scale(1); */
+                top: 0;
+
+            }
+            75%{
+                background-color: rgb(255, 51, 0);
+                /* transform: scale(1); */
+                top: 250px
+            }
+            100%{
+                background-color: rgb(255, 12, 202);
+                /* transform: scale(1); */
+                top: 0;
+                left: 950px;
+
+                
+            }
+
+        }
+        .pg{
+            width: 1000px;
+            height: 300px;
+            background-color: lightseagreen;
+        }
+        .ball{
+            width: 50px;
+            height: 50px;
+            background-color: maroon;
+            border-radius: 50%;
+            position: relative;
+            transition: transform 1s ease .3s;
+            animation: bounce 3s ease .5s infinite alternate;
+            animation-play-state: running;
+
+        }
+        .pg:hover .ball{
+            
+        }
+    </style>
+</head>
+<body>
+    <h1>This is Animation</h1>
+    <div class="pg">
+        <div class="ball"></div>
+    </div>
+</body>
+</html>

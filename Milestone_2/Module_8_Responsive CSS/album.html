@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Album</title>
+    <style>
+        .photo_album{
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .photo_frame {
+            width: 300px;
+            height: 300px;
+            border: 4px solid lightsalmon;
+            border-radius: 15px;
+            position: relative;
+            margin: 12px;
+            overflow: hidden;
+        }
+
+        .photo img {
+            width: 100%;
+            height: 300px;
+            border-radius: 15px;
+            
+
+        }
+
+        /* section {} */
+
+        .photo_details {
+            position: absolute;
+            width: 300px;
+            top: 50px;
+            display: none;
+            background-color: rgba(32, 178, 171, 0.671);
+            color: rgb(255, 255, 255);
+            font-size: 1.1em;
+            font-weight: 700;
+            
+        }
+
+        .photo_details h3 {
+            background-color: rgb(0, 0, 0);
+            text-align: center;
+            color: whitesmoke;
+        }
+
+        .photo_frame:hover .photo_details {
+            display: block;
+            
+            /* transform: scale(1.5); */
+        }
+
+        .photo_frame:hover .photo {
+            transform: scale(1.5);
+            transition: transform 1s ease-out;
+            
+        }
+
+    </style>
+</head>
+
+<body>
+    <h1>Photo album</h1>
+    <section>
+        <h3>Shohardo's Album</h3>
+        <div class="photo_album">
+
+            <div class="photo_frame">
+                <div class="photo">
+                    <img src="shohardo.jpg" alt="">
+                </div>
+                <div class="photo_details">
+                    <h3>Shohardo Candid</h3>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nihil ea quo eveniet, beatae
+                        voluptatibus iusto at excepturi. Excepturi praesentium cum repellat, voluptatibus pariatur fugit
+                        cupiditate consequuntur, odio quibusdam quaerat molestiae!</p>
+                </div>
+            </div>
+            <div class="photo_frame">
+                <div class="photo">
+                    <img src="shohardo.jpg" alt="">
+                </div>
+                <div class="photo_details">
+                    <h3>Shohardo Candid</h3>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nihil ea quo eveniet, beatae
+                        voluptatibus iusto at excepturi. Excepturi praesentium cum repellat, voluptatibus pariatur fugit
+                        cupiditate consequuntur, odio quibusdam quaerat molestiae!</p>
+                </div>
+            </div>
+            <div class="photo_frame">
+                <div class="photo">
+                    <img src="shohardo.jpg" alt="">
+                </div>
+                <div class="photo_details">
+                    <h3>Shohardo Candid</h3>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nihil ea quo eveniet, beatae
+                        voluptatibus iusto at excepturi. Excepturi praesentium cum repellat, voluptatibus pariatur fugit
+                        cupiditate consequuntur, odio quibusdam quaerat molestiae!</p>
+                </div>
+            </div>
+            <div class="photo_frame">
+                <div class="photo">
+                    <img src="shohardo.jpg" alt="">
+                </div>
+                <div class="photo_details">
+                    <h3>Shohardo Candid</h3>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nihil ea quo eveniet, beatae
+                        voluptatibus iusto at excepturi. Excepturi praesentium cum repellat, voluptatibus pariatur fugit
+                        cupiditate consequuntur, odio quibusdam quaerat molestiae!</p>
+                </div>
+            </div>
+            <div class="photo_frame">
+                <div class="photo">
+                    <img src="shohardo.jpg" alt="">
+                </div>
+                <div class="photo_details">
+                    <h3>Shohardo Candid</h3>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nihil ea quo eveniet, beatae
+                        voluptatibus iusto at excepturi. Excepturi praesentium cum repellat, voluptatibus pariatur fugit
+                        cupiditate consequuntur, odio quibusdam quaerat molestiae!</p>
+                </div>
+            </div>
+            <div class="photo_frame">
+                <div class="photo">
+                    <img src="shohardo.jpg" alt="">
+                </div>
+                <div class="photo_details">
+                    <h3>Shohardo Candid</h3>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nihil ea quo eveniet, beatae
+                        voluptatibus iusto at excepturi. Excepturi praesentium cum repellat, voluptatibus pariatur fugit
+                        cupiditate consequuntur, odio quibusdam quaerat molestiae!</p>
+                </div>
+            </div>
+            <div class="photo_frame">
+                <div class="photo">
+                    <img src="shohardo.jpg" alt="">
+                </div>
+                <div class="photo_details">
+                    <h3>Shohardo Candid</h3>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nihil ea quo eveniet, beatae
+                        voluptatibus iusto at excepturi. Excepturi praesentium cum repellat, voluptatibus pariatur fugit
+                        cupiditate consequuntur, odio quibusdam quaerat molestiae!</p>
+                </div>
+            </div>
+            <div class="photo_frame">
+                <div class="photo">
+                    <img src="shohardo.jpg" alt="">
+                </div>
+                <div class="photo_details">
+                    <h3>Shohardo Candid</h3>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nihil ea quo eveniet, beatae
+                        voluptatibus iusto at excepturi. Excepturi praesentium cum repellat, voluptatibus pariatur fugit
+                        cupiditate consequuntur, odio quibusdam quaerat molestiae!</p>
+                </div>
+            </div>
+            <div class="photo_frame">
+                <div class="photo">
+                    <img src="shohardo.jpg" alt="">
+                </div>
+                <div class="photo_details">
+                    <h3>Shohardo Candid</h3>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nihil ea quo eveniet, beatae
+                        voluptatibus iusto at excepturi. Excepturi praesentium cum repellat, voluptatibus pariatur fugit
+                        cupiditate consequuntur, odio quibusdam quaerat molestiae!</p>
+                </div>
+            </div>
+            <div class="photo_frame">
+                <div class="photo">
+                    <img src="shohardo.jpg" alt="">
+                </div>
+                <div class="photo_details">
+                    <h3>Shohardo Candid</h3>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nihil ea quo eveniet, beatae
+                        voluptatibus iusto at excepturi. Excepturi praesentium cum repellat, voluptatibus pariatur fugit
+                        cupiditate consequuntur, odio quibusdam quaerat molestiae!</p>
+                </div>
+            </div>
+            <div class="photo_frame">
+                <div class="photo">
+                    <img src="shohardo.jpg" alt="">
+                </div>
+                <div class="photo_details">
+                    <h3>Shohardo Candid</h3>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nihil ea quo eveniet, beatae
+                        voluptatibus iusto at excepturi. Excepturi praesentium cum repellat, voluptatibus pariatur fugit
+                        cupiditate consequuntur, odio quibusdam quaerat molestiae!</p>
+                </div>
+            </div>
+            <div class="photo_frame">
+                <div class="photo">
+                    <img src="shohardo.jpg" alt="">
+                </div>
+                <div class="photo_details">
+                    <h3>Shohardo Candid</h3>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nihil ea quo eveniet, beatae
+                        voluptatibus iusto at excepturi. Excepturi praesentium cum repellat, voluptatibus pariatur fugit
+                        cupiditate consequuntur, odio quibusdam quaerat molestiae!</p>
+                </div>
+            </div>
+            <div class="photo_frame">
+                <div class="photo">
+                    <img src="shohardo.jpg" alt="">
+                </div>
+                <div class="photo_details">
+                    <h3>Shohardo Candid</h3>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nihil ea quo eveniet, beatae
+                        voluptatibus iusto at excepturi. Excepturi praesentium cum repellat, voluptatibus pariatur fugit
+                        cupiditate consequuntur, odio quibusdam quaerat molestiae!</p>
+                </div>
+            </div>
+            <div class="photo_frame">
+                <div class="photo">
+                    <img src="shohardo.jpg" alt="">
+                </div>
+                <div class="photo_details">
+                    <h3>Shohardo Candid</h3>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nihil ea quo eveniet, beatae
+                        voluptatibus iusto at excepturi. Excepturi praesentium cum repellat, voluptatibus pariatur fugit
+                        cupiditate consequuntur, odio quibusdam quaerat molestiae!</p>
+                </div>
+            </div>
+            <div class="photo_frame">
+                <div class="photo">
+                    <img src="shohardo.jpg" alt="">
+                </div>
+                <div class="photo_details">
+                    <h3>Shohardo Candid</h3>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nihil ea quo eveniet, beatae
+                        voluptatibus iusto at excepturi. Excepturi praesentium cum repellat, voluptatibus pariatur fugit
+                        cupiditate consequuntur, odio quibusdam quaerat molestiae!</p>
+                </div>
+            </div>
+            <div class="photo_frame">
+                <div class="photo">
+                    <img src="shohardo.jpg" alt="">
+                </div>
+                <div class="photo_details">
+                    <h3>Shohardo Candid</h3>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nihil ea quo eveniet, beatae
+                        voluptatibus iusto at excepturi. Excepturi praesentium cum repellat, voluptatibus pariatur fugit
+                        cupiditate consequuntur, odio quibusdam quaerat molestiae!</p>
+                </div>
+            </div>
+            <div class="photo_frame">
+                <div class="photo">
+                    <img src="shohardo.jpg" alt="">
+                </div>
+                <div class="photo_details">
+                    <h3>Shohardo Candid</h3>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nihil ea quo eveniet, beatae
+                        voluptatibus iusto at excepturi. Excepturi praesentium cum repellat, voluptatibus pariatur fugit
+                        cupiditate consequuntur, odio quibusdam quaerat molestiae!</p>
+                </div>
+            </div>
+            <div class="photo_frame">
+                <div class="photo">
+                    <img src="shohardo.jpg" alt="">
+                </div>
+                <div class="photo_details">
+                    <h3>Shohardo Candid</h3>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nihil ea quo eveniet, beatae
+                        voluptatibus iusto at excepturi. Excepturi praesentium cum repellat, voluptatibus pariatur fugit
+                        cupiditate consequuntur, odio quibusdam quaerat molestiae!</p>
+                </div>
+            </div>
+            <div class="photo_frame">
+                <div class="photo">
+                    <img src="shohardo.jpg" alt="">
+                </div>
+                <div class="photo_details">
+                    <h3>Shohardo Candid</h3>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nihil ea quo eveniet, beatae
+                        voluptatibus iusto at excepturi. Excepturi praesentium cum repellat, voluptatibus pariatur fugit
+                        cupiditate consequuntur, odio quibusdam quaerat molestiae!</p>
+                </div>
+            </div>
+            <div class="photo_frame">
+                <div class="photo">
+                    <img src="shohardo.jpg" alt="">
+                </div>
+                <div class="photo_details">
+                    <h3>Shohardo Candid</h3>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nihil ea quo eveniet, beatae
+                        voluptatibus iusto at excepturi. Excepturi praesentium cum repellat, voluptatibus pariatur fugit
+                        cupiditate consequuntur, odio quibusdam quaerat molestiae!</p>
+                </div>
+            </div>
+            <div class="photo_frame">
+                <div class="photo">
+                    <img src="shohardo.jpg" alt="">
+                </div>
+                <div class="photo_details">
+                    <h3>Shohardo Candid</h3>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nihil ea quo eveniet, beatae
+                        voluptatibus iusto at excepturi. Excepturi praesentium cum repellat, voluptatibus pariatur fugit
+                        cupiditate consequuntur, odio quibusdam quaerat molestiae!</p>
+                </div>
+            </div>
+
+        </div>
+    </section>
+</body>
+
+</html>

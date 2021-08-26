@@ -1,0 +1,14 @@
+#showBuddy{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.buddy{
+    width: 200px;
+    height: 200px;
+    margin: 5px;
+    border: 1px solid red;
+    padding: 0 30px;
+}

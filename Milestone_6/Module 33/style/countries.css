@@ -1,0 +1,17 @@
+#countries{
+    /* border: 1px solid pink; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.country{
+    margin: 5px;
+    border: 1px solid red;
+    border-radius: 20px;
+    text-align: center;
+    width: 30%;
+    height: 200px;
+}
+.s{
+    padding: 10px;
+}

@@ -1,0 +1,11 @@
+.Country{
+    background-color: lightseagreen;
+    border: 2px solid rgb(194, 116, 0);
+    margin: 20px;
+    border-radius: 10px;
+    padding: 5px;
+}
+.Country img{
+    width: 250px;
+    /* height: 100px; */
+}

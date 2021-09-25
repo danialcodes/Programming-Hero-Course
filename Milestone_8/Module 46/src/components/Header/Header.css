@@ -1,0 +1,13 @@
+.menu a{
+    text-decoration: none;
+    color: black;
+    margin-right: 15px;
+    font-size: larger;
+    font-weight: 700;
+}
+.flex-me{
+    background-color: blue;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
